@@ -9,6 +9,14 @@ class StackService {
 		this.pile = [...this.pile, card];
 	}
 
+
+	push2(card) {
+		this.pile = [...this.pile, card];
+	}
+
+	push3(card) {
+		this.pile = [...this.pile, card];
+	}
   pop(){
 		if(this.pile.length === 0) return;
     this.pile = this.pile.slice(0, this.pile.length - 1);

@@ -3,12 +3,12 @@ import CalculatorService from "../service/Calculator";
 describe("Sum", () => {
 	it("should return 4 when sum 2 + 2", () => {
 		const sum = CalculatorService.sum(2, 2);
-		expect(sum).toEqual(5);
+		expect(sum).toEqual(4);
 	});
 
 	it("should return 0 when sum 2 + -2", () => {
 		const sum = CalculatorService.sum(2, -2);
-		expect(sum).toEqual(3);
+		expect(sum).toEqual(0);
 	});
 });
 
